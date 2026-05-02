@@ -43,7 +43,7 @@ client.once('ready', async () => {
       ? "<:earth:1496851758482329661> ***Server Status*** <a:animatedarrowbluelite:1483285267602473081> 🟢"
       : "<:earth:1496851758482329661> ***Server Status*** <a:animatedarrowbluelite:1483285267602473081> 🔴";
 
-    const playerLine = `<:fc14:1499366880878526474> ***Player Count*** <a:animatedarrowbluelite:1483285267602473081>\n**${playerText}**`;
+    const playerLine = `<:fc14:1499366880878526474> ***Players*** <a:animatedarrowbluelite:1483285267602473081>\n**${playerText}**`;
 
     let uptimeLine = "";
 
