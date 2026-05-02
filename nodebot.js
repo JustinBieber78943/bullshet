@@ -17,7 +17,7 @@ client.once('ready', async () => {
   const channel = await client.channels.fetch(CHANNEL_ID);
 
   const embed = new EmbedBuilder()
-    .setTitle("<:fc952:1499385248616550500> Gustaivium SMP")
+    .setTitle("<:fc952:1499385248616550500> Gustavium SMP")
     .setDescription("Checking server status...")
     .setColor(0x3498db);
 
@@ -43,7 +43,7 @@ client.once('ready', async () => {
       ? "<:earth:1496851758482329661> ***Server Status*** <a:animatedarrowbluelite:1483285267602473081> 🟢"
       : "<:earth:1496851758482329661> ***Server Status*** <a:animatedarrowbluelite:1483285267602473081> 🔴";
 
-    const playerLine = `<:fc14:1499366880878526474> ***Players*** <a:animatedarrowbluelite:1483285267602473081>\n**${playerText}**`;
+    const playerLine = `<:fc14:1499366880878526474> ***Player Count*** <a:animatedarrowbluelite:1483285267602473081> **${playerText}**`;
 
     let uptimeLine = "";
 
@@ -54,7 +54,7 @@ client.once('ready', async () => {
     }
 
     const embed = new EmbedBuilder()
-      .setTitle("<:fc952:1499385248616550500> Gustavium SMP")
+      .setTitle("<:fc952:1499385248616550500>")
       .setDescription(`${statusEmoji}\n\n${playerLine}\n\n${uptimeLine}`)
       .setColor(0x3498db);
 
